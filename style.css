@@ -1,0 +1,97 @@
+h1 {
+    font: bold 28px/1.5em Arial, sans-serif;
+    text-transform: uppercase;
+    color: #0099cc;
+    text-align: center;
+}
+h2 {
+    font: bold 24px/1.5em Arial, sans-serif;
+    /*text-transform: uppercase;*/
+    color: #0066cc;
+    text-align: center;
+}
+h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+}
+aside {
+    float: left;
+    margin: 10px 10px 0;
+    padding: 10px 10px 0 10px;
+    background-color: #ffff99;
+    min-height: 100%; 
+    width: 360px;
+}
+html, body {
+    max-width: 1200px;
+    height: 100%;
+}
+
+.aside {
+    font: 700 26px/1.8 Verdana, sans-serif;
+
+}
+aside div p {
+    font: 600 22px/1.5 Arial, sans-serif;
+    text-decoration: underline; 
+}
+
+aside div img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.info {
+    font: italic 500 20px/1.5 Arial, sans-serif;
+}
+.content {
+    font: italic 700 20px/2em Verdana, sans-serif;
+    color: #6600ff;
+    text-transform: uppercase;    
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+    
+main {
+    float: right;
+    min-height: 100%;
+    width: 600px; 
+}
+footer {
+    clear: both;
+}
+#myphoto {
+    padding-left: 20px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
+    /*margin-top: 5px;
+    padding-top: 5px;*/
+}
+.logo {
+    float: right;
+    min-height: 100%;
+}
+.footer {
+    float: left;
+    min-height: 100%;
+    font: italic 500 16px/1.5 Verdana, sans-serif; 
+}
+.logo img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+section li , .description {
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+div .logo {
+    font-size: 14px;
+}
